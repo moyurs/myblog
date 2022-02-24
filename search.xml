@@ -2,6 +2,25 @@
 <search> 
   
   
+    
+    <entry>
+      <title>hello</title>
+      <link href="/myblog/2022/02/24/hello/"/>
+      <url>/myblog/2022/02/24/hello/</url>
+      
+        <content type="html"><![CDATA[<h1 id="hello-world"><a href="#hello-world" class="headerlink" title="hello,world!"></a>hello,world!</h1>]]></content>
+      
+      
+      <categories>
+          
+          <category> fun </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
   
   
 </search>
