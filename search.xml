@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Ubuntu20.04开启与关闭图形界面</title>
+      <link href="/myblog/2022/03/25/Ubuntu20-04%E5%BC%80%E5%90%AF%E4%B8%8E%E5%85%B3%E9%97%AD%E5%9B%BE%E5%BD%A2%E7%95%8C%E9%9D%A2/"/>
+      <url>/myblog/2022/03/25/Ubuntu20-04%E5%BC%80%E5%90%AF%E4%B8%8E%E5%85%B3%E9%97%AD%E5%9B%BE%E5%BD%A2%E7%95%8C%E9%9D%A2/</url>
+      
+        <content type="html"><![CDATA[<h3 id="关闭图形界面"><a href="#关闭图形界面" class="headerlink" title="关闭图形界面"></a>关闭图形界面</h3><pre class="language-bash" data-language="bash"><code class="language-bash"><span class="token function">sudo</span> systemctl set-default multi-user.target</code></pre><h3 id="开启图形界面"><a href="#开启图形界面" class="headerlink" title="开启图形界面"></a>开启图形界面</h3><pre class="language-bash" data-language="bash"><code class="language-bash"><span class="token function">sudo</span> systemctl set-default graphical.target</code></pre><h3 id="输入完以上指令后，进行重启"><a href="#输入完以上指令后，进行重启" class="headerlink" title="输入完以上指令后，进行重启"></a>输入完以上指令后，进行重启</h3><pre class="language-bash" data-language="bash"><code class="language-bash"><span class="token function">sudo</span> <span class="token function">reboot</span></code></pre><p>或</p><pre class="language-bash" data-language="bash"><code class="language-bash"><span class="token function">sudo</span> <span class="token function">shutdown</span> -r now</code></pre><h3 id="shutdown命令简介"><a href="#shutdown命令简介" class="headerlink" title="shutdown命令简介"></a>shutdown命令简介</h3><p>shutdown  [选项] [时间] [警告信息]</p><h4 id="选项"><a href="#选项" class="headerlink" title="选项"></a>选项</h4><p>-r  关闭系统并立即重新启动。</p><p>-h  关闭系统后不重新启动。</p><p>-k  并不真正关机，只是送警告信号给每位登录者〔login〕。</p><p>-n  快速关闭系统，不经过init程序关机。</p><p>-f  快速关闭系统，重新启动时不进行磁盘检测。</p><h4 id="时间"><a href="#时间" class="headerlink" title="时间"></a>时间</h4><p>now  立刻</p><p>hh : mm  在hh时mm分</p><p>+m  在m分钟后</p><h4 id="警告信息"><a href="#警告信息" class="headerlink" title="警告信息"></a>警告信息</h4><p>警告信息会发送给所有用登录用户。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Linux Ubuntu </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>hello</title>
       <link href="/myblog/2022/02/24/hello/"/>
       <url>/myblog/2022/02/24/hello/</url>
